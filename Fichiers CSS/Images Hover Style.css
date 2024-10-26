@@ -2,7 +2,7 @@ body {
     background-color: bisque;
 }
 .container {
-    margin: 50px 0 0 300px;
+    margin: 50px 0 0 270px;
     width: 70%;
     height: 500px;
     display: flex;
@@ -24,7 +24,12 @@ body {
 #ImageTextuelle {
     background: url(../Images/pexels-photo-414612.jpeg);
     color: transparent;
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
     background-clip: text;
 }
+#Emoji {
+    text-align: center;
+    content: icon;
+    font-size: 50px;
+} 
