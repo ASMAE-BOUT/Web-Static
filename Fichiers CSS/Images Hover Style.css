@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+}
+.container {
+    margin: 50px 0 0 300px;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    ;
+}
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.container img:hover {
+    width: 30%;
+}
+#ImageTextuelle {
+    background: url(../Images/pexels-photo-414612.jpeg);
+    color: transparent;
+    font-size: 150px;
+    text-align: center;
+    background-clip: text;
+}
