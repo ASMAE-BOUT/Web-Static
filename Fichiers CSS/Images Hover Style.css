@@ -10,7 +10,6 @@ body {
     justify-content: center;
     align-content: center;
     gap: 10px;
-    ;
 }
 .container img {
     width: 10%;
@@ -33,3 +32,17 @@ body {
     content: icon;
     font-size: 50px;
 } 
+.Flex_Test {
+    display: flex;
+    background-color: transparent;
+    flex-direction: row-reverse;
+    
+}
+.Flex_Test > div {
+    background-color: rgb(199, 155, 173);
+    padding: 30px;
+    margin: auto;
+    font-size: 60px;
+    box-shadow: 10px 5px 5px red;
+    
+}
